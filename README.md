@@ -34,11 +34,12 @@
  [image6]: ./writeup_images/threshold_birds_eye_view.jpg "threshold_birds_eye_view"
  [image7]: ./writeup_images/lane_line.jpg "Output"
  [image8]: ./writeup_images/Capture.JPG "Radius of Curvature"
- [image9]: ./writeup_images/plot_histogram.JPG "plot_histogram"
- [image10]: ./writeup_images/plot_histogram_weight.JPG "plot_histogram_weight"
- [image11]: ./writeup_images/plot_histogram_weighted.JPG "plot_histogram_weighted"
+ [image9]: ./writeup_images/plot_histogram.jpg "plot_histogram"
+ [image10]: ./writeup_images/plot_histogram_weight.jpg "plot_histogram_weight"
+ [image11]: ./writeup_images/plot_histogram_weighted.jpg "plot_histogram_weighted"
  [video1]: ./project_video_output.mp4 "Video1"
  [video2]: ./project_video_output.gif "Output_gif"
+ 
  **Installing Dependencies**
  ---
 
@@ -89,13 +90,13 @@ To effectively detect lane lines using Computer Vision Techniques, I chose the f
 
     Perform Image slicing of the binary output image ( Birds Eye View + Gradient Threshold) , to have a cleaner Histogram .
     To enhance the histogram output , multiply the histogram with weights.
-
+    
     ![image9]
-
+     
     ![image10]
-
+    
     ![image11]
-
+    
 * **Detect lane pixels using search_lane function or sliding_window function**
 
     Sliding_window function computes lane lines in case there is no lane lines detected in previous frame.
